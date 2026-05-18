@@ -1,6 +1,12 @@
 # Weather App — OpenSpec Exercise
 
-A simple Angular weather app used in a hands-on training session on spec-driven development.
+A simple Angular weather app used in a hands-on training session on spec-driven development. The exercises use OpenSpec slash commands (`/opsx-*`). This repo has OpenSpec configured for all three major AI coding tools — use whichever you prefer:
+
+| Tool | Commands |
+|------|----------|
+| Cursor | `/opsx-*` slash commands (`.cursor/commands/`) |
+| Claude Code | `/opsx:*` slash commands (`.claude/commands/`) |
+| GitHub Copilot | `/opsx-*` prompt files (`.github/prompts/`) |
 
 ## Prerequisites
 
@@ -28,12 +34,11 @@ npm install
 ng serve
 ```
 
-2. Open http://localhost:4200 — you should see current weather for Warsaw.
+2. Open http://localhost:4200 — you should see current weather for St. Louis, Missouri.
 
 ## Lab exercises
 
 See [EXERCISES.md](EXERCISES.md) for the hands-on tasks.
-If you get stuck, check the [hints/](hints/) folder.
 
 ## How it works
 
